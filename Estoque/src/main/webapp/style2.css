@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-image: linear-gradient(#FF7F00, #FFA500);
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+ul li {
+	display: inline;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #333;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+img {
+	width: 120px;
+	height: 120px;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inventario a {
+	text-decoration: none;
+	background-color: #333;
+	padding: 12px;
+	color: #FFA500;
+	font-size: 1em;
+	border-radius: 4px;
+	padding: 12px;
+	width: 10vw;
+	border: 0;
+	cursor: pointer;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inventario a:hover {
+	letter-spacing: 2px;
+	box-shadow: 0 14px 16px rgba(0, 0, 0, 0.1);
+	transition: 1s;
+}
+
+.inventario {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #333;
+	padding: 20px;
+}
+
+#tabela {
+	margin: 15px;
+}
+
+#tabela th {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: center;
+	background-color: #FFA500;
+	color: #333;
+}
+
+#tabela td {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+.btns {
+	display: flex;
+}
+
+.edit {
+	text-decoration: none;
+	background-color: #333;
+	padding: 12px;
+	color: #FFA500;
+	font-size: 1em;
+	border-radius: 4px;
+	padding: 12px;
+	width: 6vw;
+	border: 0;
+	margin-right: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.delete {
+	text-decoration: none;
+	background-color: red;
+	padding: 12px;
+	color: #333;
+	font-size: 1em;
+	border-radius: 4px;
+	padding: 12px;
+	width: 6vw;
+	border: 0;
+	margin-left: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
